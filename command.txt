@@ -1,0 +1,38 @@
+python -m json_data_and_query_generator \
+--output ../my_result \
+--schema-config configs/schema.json \
+--query-config configs/query.json \
+--overwrite
+
+
+python -m json_data_and_query_generator --output ../my_result --schema-config configs/schema.json --workbook flat --overwrite --no-query
+python -m json_data_and_query_generator --output ../result/ --schema-config configs/obj8.json --workbook obj8 --overwrite --no-query --num-proc 4
+
+python -m json_data_and_query_generator --output result --schema-config config\flat_schema.json --workbook flat --overwrite --no-query 
+
+usage: pipeline.py [-h] [--output OUTPUT] [--schema-config SCHEMA_CONFIG]
+                   [--query-config QUERY_CONFIG] [--query-base-name QUERY_BASE_NAME]
+                   [--collection-name COLLECTION_NAME] [--num-proc NUM_PROC] [--no-query]
+                   [--workbook WORKBOOK] [--overwrite]
+
+Driver script that runs the faker data generator and the query generator together
+
+options:
+  -h, --help            show this help message and exit
+  --output OUTPUT, -o OUTPUT
+                        Path to the output directory for the generated query files. Defaults
+                        to "/tmp/scenario"
+  --schema-config SCHEMA_CONFIG
+                        Path to the schema config file. Defaults to example
+  --query-config QUERY_CONFIG
+                        Path to the query generator config file. Defaults to example
+  --query-base-name QUERY_BASE_NAME
+                        Base name of the generated queries. Defaults to "query"
+  --collection-name COLLECTION_NAME
+                        Name of the collection to be created. Defaults to mycol
+  --num-proc NUM_PROC   Number of processes for the data generation. Defaults to 1
+  --no-query            generate only data
+  --workbook WORKBOOK, -w WORKBOOK
+                        workbook name
+  --overwrite           force overwrite of the data
+

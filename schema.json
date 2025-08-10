@@ -1,0 +1,27 @@
+{
+  "forcedPaths": [
+    {
+      "path": [
+        "a0"
+      ],
+      "valueType": "random_number(3)"
+    },
+    {
+      "path": [
+        "b0"
+      ],
+      "valueType": "random_number(3)"
+    },
+    {
+      "path": [
+        "c0",
+        "a1"
+      ],
+      "valueType": "word"
+    },
+  ],
+  "numLevels": 0,
+  "numFields": 5,
+  "lenFields": 100,
+  "numSamples": 10
+}

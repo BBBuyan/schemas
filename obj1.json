@@ -1,0 +1,32 @@
+{
+  "forcedPaths": [
+    {
+      "path": ["device"],
+      "valueType": "random_number(4)"
+    },
+    {
+      "path": ["l1", "device"],
+      "valueType": "random_number(4)"
+    },
+    {
+      "path": ["l1", "app"],
+      "valueType": "word"
+    },
+    {
+      "path": ["l1", "total_volume_bytes"],
+      "valueType": "random_number(4)"
+    },
+    {
+      "path": ["l1", "number_of_records"],
+      "valueType": "random_number(3)"
+    },
+    {
+      "path": ["l1", "subscribers"],
+      "valueType": "random_number(4)"
+    },
+  ],
+  "lenFields": 10,
+  "numFields": 0,
+  "numLevels": 0,
+  "numSamples": 1000000
+}

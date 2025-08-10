@@ -1,0 +1,60 @@
+{
+  "forcedPaths": [
+    {
+      "path": [ "device" ],
+      "valueType": "random_number(4)"
+    },
+    {
+      "path": ["a1[2]", "level"],
+      "valueType": "random_number(4)"
+    },
+    {
+      "path": ["a1[2]", "a2[2]", "level"],
+      "valueType": "random_number(4)"
+    },
+    {
+      "path": ["a1[2]", "a2[2]", "a3[2]","level"],
+      "valueType": "random_number(4)"
+    },
+    {
+      "path": ["a1[2]", "a2[2]", "a3[2]", "a4[2]", "level"],
+      "valueType": "random_number(4)"
+    },
+    {
+      "path": ["a1[2]", "a2[2]", "a3[2]", "a4[2]", "a5[2]", "level"],
+      "valueType": "random_number(4)"
+    },
+    {
+      "path": ["a1[2]", "a2[2]", "a3[2]", "a4[2]", "a5[2]", "a6[2]", "level"],
+      "valueType": "random_number(4)"
+    },
+    {
+      "path": ["a1[2]", "a2[2]", "a3[2]", "a4[2]", "a5[2]", "a6[2]", "a7[2]", "level"],
+      "valueType": "random_number(4)"
+    },
+    {
+      "path": ["a1[2]", "a2[2]", "a3[2]", "a4[2]", "a5[2]", "a6[2]", "a7[2]", "a8[2]","level"],
+      "valueType": "random_number(4)"
+    },
+    {
+      "path": ["a1[2]", "a2[2]", "a3[2]", "a4[2]", "a5[2]", "a6[2]", "a7[2]", "a8[2]","total_volume_bytes"],
+      "valueType": "random_number(4)"
+    },
+    {
+      "path": ["a1[2]", "a2[2]", "a3[2]", "a4[2]", "a5[2]", "a6[2]", "a7[2]", "a8[2]","number_of_records"],
+      "valueType": "random_number(3)"
+    },
+    {
+      "path": ["a1[2]", "a2[2]", "a3[2]", "a4[2]", "a5[2]", "a6[2]", "a7[2]", "a8[2]","subscribers"],
+      "valueType": "random_number(4)"
+    },
+    {
+      "path": ["a1[2]", "a2[2]", "a3[2]", "a4[2]", "a5[2]", "a6[2]", "a7[2]", "a8[2]","app"],
+      "valueType": "word"
+    },
+  ],
+  "lenFields": 10,
+  "numFields": 0,
+  "numLevels": 0,
+  "numSamples": 10000
+}

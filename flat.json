@@ -1,24 +1,24 @@
 {
   "forcedPaths": [
     {
-      "path": [ "device" ],
+      "path": [ "memory_usage_mb" ],
       "valueType": "random_number(4)"
     },
     {
-      "path": [ "number_of_records" ],
+      "path": [ "error_count" ],
+      "valueType": "random_number(4)"
+    },
+    {
+      "path": [ "total_storage_gb" ],
       "valueType": "random_number(3)"
     },
     {
-      "path": [ "activity_sec" ],
+      "path": [ "temp" ],
       "valueType": "random_number(2)"
     },
     {
-      "path": [ "total_volume_bytes" ],
-      "valueType": "random_number(4)"
-    },
-    {
-      "path": [ "subscribers" ],
-      "valueType": "random_number(4)"
+      "path": [ "uptime_hours" ],
+      "valueType": "random_number(2)"
     },
     {
       "path": [ "app" ],
@@ -28,5 +28,5 @@
   "numLevels": 0,
   "numFields": 6,
   "lenFields": 10,
-  "numSamples": 1000000
+  "numSamples": 100000
 }

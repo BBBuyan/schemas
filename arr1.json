@@ -1,24 +1,28 @@
 {
   "forcedPaths": [
     {
-      "path": [ "device" ],
+      "path": [ "memory_usage_mb" ],
       "valueType": "random_number(4)"
     },
     {
-      "path": ["a1[2]", "device"],
+      "path": ["a1[2]", "memory_usage_mb"],
       "valueType": "random_number(4)"
     },
     {
-      "path": ["a1[2]", "total_volume_bytes"],
+      "path": ["a1[2]", "error_count"],
       "valueType": "random_number(4)"
     },
     {
-      "path": ["a1[2]", "number_of_records" ],
+      "path": ["a1[2]", "total_storage_gb" ],
       "valueType": "random_number(3)"
     },
     {
-      "path": ["a1[2]", "subscribers" ],
-      "valueType": "random_number(4)"
+      "path": ["a1[2]", "temp" ],
+      "valueType": "random_number(2)"
+    },
+    {
+      "path": ["a1[2]", "uptime_hours" ],
+      "valueType": "random_number(2)"
     },
     {
       "path": ["a1[2]", "app"],
@@ -28,5 +32,5 @@
   "lenFields": 10,
   "numFields": 0,
   "numLevels": 0,
-  "numSamples": 10000
+  "numSamples": 1000
 }

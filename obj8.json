@@ -1,60 +1,64 @@
 {
   "forcedPaths": [
     {
-      "path": ["device"],
+      "path": ["memory_usage_mb"],
       "valueType": "random_number(4)"
     },
     {
-      "path": ["l1", "level"],
+      "path": ["l1", "memory_usage_mb"],
       "valueType": "random_number(4)"
     },
     {
-      "path": ["l1", "l2", "level"],
+      "path": ["l1", "l2", "memory_usage_mb"],
       "valueType": "random_number(4)"
     },
     {
-      "path": ["l1", "l2", "l3", "level"],
+      "path": ["l1", "l2", "l3", "memory_usage_mb"],
       "valueType": "random_number(4)"
     },
     {
-      "path": ["l1", "l2", "l3", "l4", "level"],
+      "path": ["l1", "l2", "l3", "l4", "memory_usage_mb"],
       "valueType": "random_number(4)"
     },
     {
-      "path": ["l1", "l2", "l3", "l4", "l5", "level"],
+      "path": ["l1", "l2", "l3", "l4", "l5", "memory_usage_mb"],
       "valueType": "random_number(4)"
     },
     {
-      "path": ["l1", "l2", "l3", "l4", "l5", "l6", "level"],
+      "path": ["l1", "l2", "l3", "l4", "l5", "l6", "memory_usage_mb"],
       "valueType": "random_number(4)"
     },
     {
-      "path": ["l1", "l2", "l3", "l4", "l5", "l6", "l7", "level"],
+      "path": ["l1", "l2", "l3", "l4", "l5", "l6", "l7", "memory_usage_mb"],
       "valueType": "random_number(4)"
     },
     {
-      "path": ["l1", "l2", "l3", "l4", "l5", "l6", "l7", "l8" ,"device"],
+      "path": ["l1", "l2", "l3", "l4", "l5", "l6", "l7", "l8" ,"memory_usage_mb"],
       "valueType": "random_number(4)"
+    },
+    {
+      "path": ["l1", "l2", "l3", "l4", "l5", "l6", "l7", "l8" ,"error_count"],
+      "valueType": "random_number(4)"
+    },
+    {
+      "path": ["l1", "l2", "l3", "l4", "l5", "l6", "l7", "l8" ,"total_storage_gb"],
+      "valueType": "random_number(3)"
+    },
+    {
+      "path": ["l1", "l2", "l3", "l4", "l5", "l6", "l7", "l8" ,"temp"],
+      "valueType": "random_number(2)"
+    },
+    {
+      "path": ["l1", "l2", "l3", "l4", "l5", "l6", "l7", "l8" ,"uptime_hours"],
+      "valueType": "random_number(2)"
     },
     {
       "path": ["l1", "l2", "l3", "l4", "l5", "l6", "l7", "l8" ,"app"],
       "valueType": "word"
     },
-    {
-      "path": ["l1", "l2", "l3", "l4", "l5", "l6", "l7", "l8" ,"total_volume_bytes"],
-      "valueType": "random_number(4)"
-    },
-    {
-      "path": ["l1", "l2", "l3", "l4", "l5", "l6", "l7", "l8" ,"number_of_records"],
-      "valueType": "random_number(3)"
-    },
-    {
-      "path": ["l1", "l2", "l3", "l4", "l5", "l6", "l7", "l8" ,"subscribers"],
-      "valueType": "random_number(4)"
-    },
   ],
   "lenFields": 10,
   "numFields": 0,
-  "numLevels": 0,
-  "numSamples": 1000000
+  "nummemory_usage_mbs": 0,
+  "numSamples": 100000
 }

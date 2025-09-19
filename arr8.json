@@ -1,52 +1,56 @@
 {
   "forcedPaths": [
     {
-      "path": [ "device" ],
+      "path": [ "memory_usage_mb" ],
       "valueType": "random_number(4)"
     },
     {
-      "path": ["a1[2]", "level"],
+      "path": ["a1[2]", "memory_usage_mb"],
       "valueType": "random_number(4)"
     },
     {
-      "path": ["a1[2]", "a2[2]", "level"],
+      "path": ["a1[2]", "a2[2]", "memory_usage_mb"],
       "valueType": "random_number(4)"
     },
     {
-      "path": ["a1[2]", "a2[2]", "a3[2]","level"],
+      "path": ["a1[2]", "a2[2]", "a3[2]","memory_usage_mb"],
       "valueType": "random_number(4)"
     },
     {
-      "path": ["a1[2]", "a2[2]", "a3[2]", "a4[2]", "level"],
+      "path": ["a1[2]", "a2[2]", "a3[2]", "a4[2]", "memory_usage_mb"],
       "valueType": "random_number(4)"
     },
     {
-      "path": ["a1[2]", "a2[2]", "a3[2]", "a4[2]", "a5[2]", "level"],
+      "path": ["a1[2]", "a2[2]", "a3[2]", "a4[2]", "a5[2]", "memory_usage_mb"],
       "valueType": "random_number(4)"
     },
     {
-      "path": ["a1[2]", "a2[2]", "a3[2]", "a4[2]", "a5[2]", "a6[2]", "level"],
+      "path": ["a1[2]", "a2[2]", "a3[2]", "a4[2]", "a5[2]", "a6[2]", "memory_usage_mb"],
       "valueType": "random_number(4)"
     },
     {
-      "path": ["a1[2]", "a2[2]", "a3[2]", "a4[2]", "a5[2]", "a6[2]", "a7[2]", "level"],
+      "path": ["a1[2]", "a2[2]", "a3[2]", "a4[2]", "a5[2]", "a6[2]", "a7[2]", "memory_usage_mb"],
       "valueType": "random_number(4)"
     },
     {
-      "path": ["a1[2]", "a2[2]", "a3[2]", "a4[2]", "a5[2]", "a6[2]", "a7[2]", "a8[2]","level"],
+      "path": ["a1[2]", "a2[2]", "a3[2]", "a4[2]", "a5[2]", "a6[2]", "a7[2]", "a8[2]","memory_usage_mb"],
       "valueType": "random_number(4)"
     },
     {
-      "path": ["a1[2]", "a2[2]", "a3[2]", "a4[2]", "a5[2]", "a6[2]", "a7[2]", "a8[2]","total_volume_bytes"],
+      "path": ["a1[2]", "a2[2]", "a3[2]", "a4[2]", "a5[2]", "a6[2]", "a7[2]", "a8[2]","error_count"],
       "valueType": "random_number(4)"
     },
     {
-      "path": ["a1[2]", "a2[2]", "a3[2]", "a4[2]", "a5[2]", "a6[2]", "a7[2]", "a8[2]","number_of_records"],
+      "path": ["a1[2]", "a2[2]", "a3[2]", "a4[2]", "a5[2]", "a6[2]", "a7[2]", "a8[2]","total_storage_gb"],
       "valueType": "random_number(3)"
     },
     {
-      "path": ["a1[2]", "a2[2]", "a3[2]", "a4[2]", "a5[2]", "a6[2]", "a7[2]", "a8[2]","subscribers"],
-      "valueType": "random_number(4)"
+      "path": ["a1[2]", "a2[2]", "a3[2]", "a4[2]", "a5[2]", "a6[2]", "a7[2]", "a8[2]","temp"],
+      "valueType": "random_number(2)"
+    },
+    {
+      "path": ["a1[2]", "a2[2]", "a3[2]", "a4[2]", "a5[2]", "a6[2]", "a7[2]", "a8[2]","uptime_hours"],
+      "valueType": "random_number(2)"
     },
     {
       "path": ["a1[2]", "a2[2]", "a3[2]", "a4[2]", "a5[2]", "a6[2]", "a7[2]", "a8[2]","app"],
@@ -55,6 +59,6 @@
   ],
   "lenFields": 10,
   "numFields": 0,
-  "numLevels": 0,
-  "numSamples": 10000
+  "nummemory_usage_mbs": 0,
+  "numSamples": 1000
 }

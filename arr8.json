@@ -59,6 +59,6 @@
   ],
   "lenFields": 10,
   "numFields": 0,
-  "nummemory_usage_mbs": 0,
+  "numLevels": 0,
   "numSamples": 1000
 }
